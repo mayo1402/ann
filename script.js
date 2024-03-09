@@ -90,7 +90,8 @@ function drawText() {
   if (frameNumber < 300) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "You are the guiding star in the constellation of my life, always shining brightly and guiding me through the darkest nights.",
+      "You are the guiding star in the constellation of my life,",
+      "always shining brightly and guiding me through the darkest nights.",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -100,7 +101,8 @@ function drawText() {
   if (frameNumber >= 300 && frameNumber < 600) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "You are the guiding star in the constellation of my life, always shining brightly and guiding me through the darkest nights.",
+      "You are the guiding star in the constellation of my life,",
+      "always shining brightly and guiding me through the darkest nights.",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -116,7 +118,8 @@ function drawText() {
 
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
-        ["Your support, wisdom, and love have been my North Star, helping me navigate life's unpredictable seas with grace and strength."],
+        ["Your support, wisdom, and love have been my North Star,"],
+         ["helping me navigate life's unpredictable seas with grace and strength."],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -124,7 +127,8 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "Your support, wisdom, and love have been my North Star, helping me navigate life's unpredictable seas with grace and strength.",
+        "Your support, wisdom, and love have been my North Star,",
+        "helping me navigate life's unpredictable seas with grace and strength.",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -137,7 +141,8 @@ function drawText() {
 
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
-        ["Your support, wisdom, and love have been my North Star, helping me navigate life's unpredictable seas with grace and strength."],
+        ["Your support, wisdom, and love have been my North Star,"],
+         ["helping me navigate life's unpredictable seas with grace and strength."],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -145,7 +150,8 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "Your support, wisdom, and love have been my North Star, helping me navigate life's unpredictable seas with grace and strength.",
+        "Your support, wisdom, and love have been my North Star,",
+        "helping me navigate life's unpredictable seas with grace and strength.",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -160,7 +166,8 @@ function drawText() {
   if (frameNumber > 1200 && frameNumber < 1500) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      " Like the stars that light up the sky, your presence illuminates my path, filling my life with warmth and inspiration.",
+      " Like the stars that light up the sky, your presence illuminates my path,",
+      "filling my life with warmth and inspiration.",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -169,7 +176,8 @@ function drawText() {
   if (frameNumber >= 1500 && frameNumber < 1800) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      " Like the stars that light up the sky, your presence illuminates my path, filling my life with warmth and inspiration.",
+      " Like the stars that light up the sky, your presence illuminates my path,",
+      "filling my life with warmth and inspiration.",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -182,7 +190,9 @@ function drawText() {
   if (frameNumber > 1800 && frameNumber < 2100) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "Thank you for being the steady anchor in my stormy seas, for lifting me up when I falter, and for always being there with open arms and a listening heart.",
+      "Thank you for being the steady anchor in my stormy seas,",
+      "for lifting me up when I falter, and for always being",
+      "there with open arms and a listening heart.",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -191,7 +201,9 @@ function drawText() {
   if (frameNumber >= 2100 && frameNumber < 2400) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "Thank you for being the steady anchor in my stormy seas, for lifting me up when I falter, and for always being there with open arms and a listening heart.",
+      "Thank you for being the steady anchor in my stormy seas,",
+      "for lifting me up when I falter, and for always being",
+      "there with open arms and a listening heart.",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -207,7 +219,8 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "Your kindness, patience, and unwavering support mean more to me than words can express. ",
+          "Your kindness, patience, and unwavering support",
+          "mean more to me than words can express. ",
          
         ],
         canvas.width / 2,
@@ -217,7 +230,8 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "Your kindness, patience, and unwavering support mean more to me than words can express. ",
+        "Your kindness, patience, and unwavering support",
+        "mean more to me than words can express. ",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -231,7 +245,8 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "Your kindness, patience, and unwavering support mean more to me than words can express. ",
+          "Your kindness, patience, and unwavering support",
+          "mean more to me than words can express. ",
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -240,7 +255,8 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "Your kindness, patience, and unwavering support mean more to me than words can express. ",
+        "Your kindness, patience, and unwavering support",
+        "mean more to me than words can express. ",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -258,7 +274,8 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "You are not just my sister, but my guiding light, my rock, and my greatest blessing.",
+          "You are not just my sister, but my guiding light,",
+          "my rock, and my greatest blessing.",
          
         ],
         canvas.width / 2,
@@ -268,7 +285,8 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "You are not just my sister, but my guiding light, my rock, and my greatest blessing.",
+        "You are not just my sister, but my guiding light,",
+        "my rock, and my greatest blessing.",
         canvas.width / 2,
         canvas.height / 2
       );
